@@ -1,14 +1,66 @@
 .img-head {
   width: 100%;
-  height: 30vh;
+  height: 20%;
 }
 
 .img-tal-eva {
   width: 100%;
   height: 100%;
 }
+
+.talis-header {
+  margin-left: 43%;
+  font-size: 48px;
+  font-family: -webkit-body;
+}
+
+/* Inicio Footer */
+footer {
+  border-top:2px solid black;
+}
+footer .footer-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: #FFF;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+footer .footer-container .footer-container-div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+footer .footer-container ul li {
+  display: inline-block;
+  text-align: center;
+}
+
+.img-discord {
+    font-size: 20px;
+    width: 200px;
+    height: 100px;
+    line-height: 35px;
+    border-radius: 50px;
+    border: 2px solid #FFF;
+    margin-left:800px;
+    margin-top:10px;
+    text-decoration-line: none;
+    color: #FFF;
+    display:flex;
+    text-align:center;
+}
+footer .img-discord:hover {
+  background-color: #7289da;
+}
+
+/* Fin Footer */
+
 body {
-  background: #f2f2f2;
+  background-color: #f1f1f1;
+}
+
+.container div {
+  background-color:#f1f1f1; 
 }
 /* ============ desktop view ============ */
 @media all and (min-width: 992px) {
