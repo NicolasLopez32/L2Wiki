@@ -1,3 +1,9 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
 .img-head {
   width: 100%;
   height: 20%;
@@ -25,6 +31,25 @@
   margin-left:24%;
 }
 
+.img-ag-joy {
+  margin-left:29%
+}
+
+.img-ag-nebula {
+  margin-left:38%;
+}
+
+.img-ag-procella {
+  margin-left:34%;
+}
+
+.img-ag-tSpeed {
+  margin-left:28%;
+}
+
+.img-ag-tAuthority {
+  margin-left:30%;
+}
 .talis-header {
   margin-left: 43%;
   font-size: 48px;
@@ -79,12 +104,14 @@ footer .img-discord:hover {
 /* Fin Footer */
 
 body {
-  background-color: #f1f1f1;
+  background-color: black;
+  border-radius:3em;
 }
 
-.container div {
-  background-color:#f1f1f1; 
+.container {
+  border-radius:3em;
 }
+
 /* ============ desktop view ============ */
 @media all and (min-width: 992px) {
 
@@ -116,3 +143,32 @@ body {
 
 }	
 /* ============ small devices .end// ============ */
+
+.button.white {
+  color:#2f3c4e;
+  background:#fff;
+}
+
+.button.white:hover {
+  color: #fff;
+  background: #9fa8da;
+}
+
+.button-row-social .button {
+  margin:2px;
+}
+
+.button {
+  font-size: 38px;
+  line-height: 60px;
+  color: #fff;
+  display: inline-block;
+  background: #9fa8da;
+  border-radius: 50px;
+  padding: 0 20px;
+  text-transform: uppercase;
+  border: none;
+  position: relative;
+  transition: .4s;
+}
+
