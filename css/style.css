@@ -106,10 +106,15 @@ footer .img-discord:hover {
 body {
   background-color: black;
   border-radius:3em;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  background-image:url(http://imgfz.com/i/9cCmej3.png)
 }
 
 .container {
   border-radius:3em;
+  margin-top:20em;
 }
 
 /* ============ desktop view ============ */
