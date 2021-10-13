@@ -51,3 +51,5 @@ document.addEventListener("DOMContentLoaded", function(){
 
 }); 
 // DOMContentLoaded  end
+var image = document.getElementsByClassName('thumbnail');
+new simpleParallax(image)

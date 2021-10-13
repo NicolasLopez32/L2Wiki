@@ -105,9 +105,11 @@ body {
   background-color: black;
   border-radius:3em;
   background-attachment: fixed;
-  background-position: center center;
+  background-position: center; 
+  background-repeat: no-repeat;
   background-size: cover;
-  background-image:url(http://imgfz.com/i/9cCmej3.png)
+  background-image:url(http://imgfz.com/i/9cCmej3.png);
+
 }
 
 .container {
@@ -144,6 +146,14 @@ body {
 		margin-left:0.7rem; margin-right:0.7rem; margin-bottom: .5rem;
 }
 
+.render-img {
+    width:100%;
+}
+
+.container {
+  margin-top:8em;
+}
+
 }	
 /* ============ small devices .end// ============ */
 
@@ -152,9 +162,39 @@ body {
   background:#fff;
 }
 
+.button.discord {
+  color:#2f3c4e;
+  background:#fff;
+}
+.button.discord:hover {
+  /* color:#7289da; */
+  background:#7289da;
+  color:#ffffff;
+}
+
+.button.youtube {
+  color:#2f3c4e;
+  background:#fff;
+}
+
+.button.twitch {
+  color:#2f3c4e;
+  background:#fff;
+}
+
+.button.twitch:hover {
+  color:white;
+  background:#6441a5;
+}
+.button.youtube:hover {
+  color:#fff;
+  background:red;
+}
+
 .button.white:hover {
   color: #fff;
   /* background: #9fa8da; */
+
   background:black;
 }
 
