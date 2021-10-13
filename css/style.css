@@ -63,9 +63,7 @@
   margin-left:24%;
 }
 /* Inicio Footer */
-footer {
-  border-top:2px solid black;
-}
+
 footer .footer-container {
   display: flex;
   justify-content: center;
@@ -156,7 +154,8 @@ body {
 
 .button.white:hover {
   color: #fff;
-  background: #9fa8da;
+  /* background: #9fa8da; */
+  background:black;
 }
 
 .button-row-social .button {
@@ -175,5 +174,9 @@ body {
   border: none;
   position: relative;
   transition: .4s;
+}
+
+.pointer {
+  cursor:pointer;
 }
 
