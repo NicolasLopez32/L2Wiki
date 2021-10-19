@@ -11,217 +11,276 @@
      <!-- CSS -->
      <link rel="stylesheet" href="css/style.css">
 
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"crossorigin="anonymous"></script>
+    <!-- libreria animaciones -->
+     <link rel="stylesheet" href="css/animate.css">
 
+    <!-- Fontaswesome Icon -->
+    <script src="https://kit.fontawesome.com/9b3172c22f.js" crossorigin="anonymous"></script>
+
+    <!-- scrips dropdown multilevel -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>  
 
     <title>KWCPTR L2 WIKI</title>
+
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <div class="container-fluid">
-          <a class="navbar-brand logo" href="index.html">
-            <img class="logo horizontal-logo" src="https://i.ibb.co/ZNNh1cD/botonhome.png" alt="kwcptrlogo">
-          </a>
-         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"  aria-expanded="false" aria-label="Toggle navigation">
-             <span class="navbar-toggler-icon"></span>
-           </button>
-         <div class="collapse navbar-collapse" id="main_nav">
-         
-       
-         <ul class="navbar-nav">
-           <li class="nav-item dropdown">
-             <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">  Menu </a>
-               <ul class="dropdown-menu">
-  
-                <li><a class="dropdown-item pointer"> Armors &raquo; </a>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand logo" href="index.html">
+        <img class="logo horizontal-logo" src="https://i.ibb.co/ZNNh1cD/botonhome.png" alt="kwcptrlogo">
+      </a>
+     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"  aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+       </button>
+     <div class="collapse navbar-collapse" id="main_nav">
+     
+   
+     <ul class="navbar-nav">
+       <li class="nav-item dropdown">
+         <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">  Menu </a>
+           <ul class="dropdown-menu">
+
+            <li><a class="dropdown-item pointer"> Armors &raquo; </a>
+              <ul class="submenu dropdown-menu">
+
+
+                <!-- Armaduras B-Grade -->
+                <li><a class="dropdown-item pointer"> B-Grade &raquo; </a>
+                <ul class="submenu dropdown-menu">
+                  <li><a class="dropdown-item" href="armorsB.html#zubei">Zubei</a></li>
+                  <li><a class="dropdown-item" href="armorsB.html#avadon">Avadon</a></li>
+                  <li><a class="dropdown-item" href="armorsB.html#doom">Doom</a></li>
+                  <li><a class="dropdown-item" href="armorsB.html#bw">Blue Wolf</a></li>
+                  </li>
+                </li>
+                </ul>
+
+                <!-- Armaduras A-Grade -->
+                <li><a class="dropdown-item pointer"> A-Grade &raquo; </a>
                   <ul class="submenu dropdown-menu">
-  
-  
-                    <!-- Armaduras B-Grade -->
-                    <li><a class="dropdown-item" href="armorsB.html"> B-Grade &raquo; </a>
+                    <li><a class="dropdown-item" href="armorsA.html#tallum">Tallum</a></li>
+                    <li><a class="dropdown-item" href="armorsA.html#dc">Dark Crystal</a></li>
+                    <li><a class="dropdown-item" href="armorsA.html#nightmare">Nightmare</a></li>
+                    <li><a class="dropdown-item" href="armorsA.html#mj">Majestic</a></li>
+                    <!-- <li><a class="dropdown-item" href="armorsA.html#shieldSigil">Shield/Sigil</a></li> -->
+                    </li>
+                  </li>
+                  </ul>
+
+                  <!-- Armaduras Specials -->
+                  <li><a class="dropdown-item pointer"> Special &raquo; </a>
                     <ul class="submenu dropdown-menu">
-                      <li><a class="dropdown-item" href="armorsB.html#zubei">Zubei</a></li>
-                      <li><a class="dropdown-item" href="armorsB.html#avadon">Avadon</a></li>
-                      <li><a class="dropdown-item" href="armorsB.html#doom">Doom</a></li>
-                      <li><a class="dropdown-item" href="armorsB.html#bw">Blue Wolf</a></li>
+                      <li><a class="dropdown-item" href="specialArmor.html#iceBreastplate">Ice Crystal Breastplate</a></li>
+                      <li><a class="dropdown-item" href="specialArmor.html#iceGaiters">Ice Crystal Gaiters</a></li>
+                      <li><a class="dropdown-item" href="specialArmor.html#LightningArmor">Leather Armor of Lightning</a></li>
+                      <li><a class="dropdown-item" href="specialArmor.html#LightningLeggings">Leather Leggings of Lightning</a></li>
+                      <li><a class="dropdown-item" href="specialArmor.html#flamingTunic">Flaming Tunic</a></li>
+                      <li><a class="dropdown-item" href="specialArmor.html#flamingStockings">Flaming Stockings</a></li>
+                      <li><a class="dropdown-item" href="specialArmor.html#manaHelmet">Helmet of Mana</a></li>
+                      <li><a class="dropdown-item" href="specialArmor.html#silenceGloves">Gloves of Silence</a></li>
+                      <li><a class="dropdown-item" href="specialArmor.html#stunGauntlets">Stun Gauntlets</a></li>
+                      <li><a class="dropdown-item" href="specialArmor.html#bootsEva">Boots of Evasion</a></li>
+                      <li><a class="dropdown-item" href="specialArmor.html#shield">Shield of Vengeance</a></li>
+                      <li><a class="dropdown-item" href="specialArmor.html#sigil">Sigil of Inevitability</a></li>
                       </li>
                     </li>
                     </ul>
-  
-                    <!-- Armaduras A-Grade -->
-                    <li><a class="dropdown-item" href="armorsA.html"> A-Grade &raquo; </a>
-                      <ul class="submenu dropdown-menu">
-                        <li><a class="dropdown-item" href="armorsA.html#tallum">Tallum</a></li>
-                        <li><a class="dropdown-item" href="armorsA.html#dc">Dark Crystal</a></li>
-                        <li><a class="dropdown-item" href="armorsA.html#nightmare">Nightmare</a></li>
-                        <li><a class="dropdown-item" href="armorsA.html#mj">Majestic</a></li>
-                        <li><a class="dropdown-item" href="armorsA.html#shieldSigil">Shield/Sigil</a></li>
-                        </li>
-                      </li>
-                      </ul>
-  
-                      <!-- Armaduras Specials -->
-                      <li><a class="dropdown-item" href="specialArmor.html"> Special &raquo; </a>
-                        <ul class="submenu dropdown-menu">
-                          <li><a class="dropdown-item" href="specialArmor.html#iceBreastplate">Ice Crystal Breastplate</a></li>
-                          <li><a class="dropdown-item" href="specialArmor.html#iceGaiters">Ice Crystal Gaiters</a></li>
-                          <li><a class="dropdown-item" href="specialArmor.html#LightningArmor">Leather Armor of Lightning</a></li>
-                          <li><a class="dropdown-item" href="specialArmor.html#LightningLeggings">Leather Leggings of Lightning</a></li>
-                          <li><a class="dropdown-item" href="specialArmor.html#flamingTunic">Flaming Tunic</a></li>
-                          <li><a class="dropdown-item" href="specialArmor.html#flamingStockings">Flaming Stockings</a></li>
-                          <li><a class="dropdown-item" href="specialArmor.html#manaHelmet">Helmet of Mana</a></li>
-                          <li><a class="dropdown-item" href="specialArmor.html#silenceGloves">Gloves of Silence</a></li>
-                          <li><a class="dropdown-item" href="specialArmor.html#stunGauntlets">Stun Gauntlets</a></li>
-                          <li><a class="dropdown-item" href="specialArmor.html#bootsEva">Boots of Evasion</a></li>
-                          <li><a class="dropdown-item" href="specialArmor.html#shield">Shield of Vengeance</a></li>
-                          <li><a class="dropdown-item" href="specialArmor.html#sigil">Sigil of Inevitability</a></li>
-                          </li>
-                        </li>
-                        </ul>
-  
-                </ul>
-  
-                <li><a class="dropdown-item pointer" > Accesories &raquo; </a>
+
+            </ul>
+
+            <li><a class="dropdown-item pointer" > Accesories &raquo; </a>
+              <ul class="submenu dropdown-menu">
+
+
+                <li><a class="dropdown-item pointer"> Bracelets/Brooch &raquo; </a>
                   <ul class="submenu dropdown-menu">
-  
-  
-                    <li><a class="dropdown-item" href="BrachBrooch.html"> Bracelets/Brooch &raquo; </a>
-                      <ul class="submenu dropdown-menu">
-                        <li><a class="dropdown-item" href="BracBrooch.html#talismanBracelet">Talisman Bracelet</a></li>
-                        <li><a class="dropdown-item" href="BracBrooch.html#agathionBracelet">Agathion Bracelet</a></li>
-                        <li><a class="dropdown-item" href="BracBrooch.html#brooch">Brooch</a></li>
-                        </li>
-                      </li> 
-                      </ul>
-                      <li><a class="dropdown-item" href="talismanes.html"> Talismans &raquo; </a>
-                        <ul class="submenu dropdown-menu">
-                          <li><a class="dropdown-item" href="talismanes.html#tAden">Talisman of Aden</a></li>
-                          <li><a class="dropdown-item" href="talismanes.html#tEva">Talisman of Eva</a></li>
-                          <li><a class="dropdown-item" href="talismanes.html#tSpeed">Talisman of Speed</a></li>
-                          <li><a class="dropdown-item" href="talismanes.html#tAuthority">Talisman of Authority</a></li>
-                          <li><a class="dropdown-item" href="talismanes.html#tBaium">Talisman of Baium</a></li>
-                          <li><a class="dropdown-item" href="talismanes.html#tVenir">Venir's Talisman</a></li>
-                          </li>
-                        </li> 
-                        </ul>
-  
-                      <li><a class="dropdown-item" href="agathions.html"> Agathions &raquo; </a>
-                        <ul class="submenu dropdown-menu">
-                          <li><a class="dropdown-item" href="agathions.html#ignis">Ignis</a></li>
-                          <li><a class="dropdown-item" href="agathions.html#joy">Joy</a></li>
-                          <li><a class="dropdown-item" href="agathions.html#nebula">Nebula</a></li>
-                          <li><a class="dropdown-item" href="agathions.html#petram">Petram</a></li>
-                          <li><a class="dropdown-item" href="agathions.html#procella">Procella</a></li>
-                          </li>
-                        </li> 
-                        </ul> 
-                  
-  
-                  <li><a class="dropdown-item" href="jewlery.html"> Jewels &raquo; </a>
+                    <li><a class="dropdown-item" href="BracBrooch.html#talismanBracelet">Talisman Bracelet</a></li>
+                    <li><a class="dropdown-item" href="BracBrooch.html#agathionBracelet">Agathion Bracelet</a></li>
+                    <li><a class="dropdown-item" href="BracBrooch.html#brooch">Brooch</a></li>
+                    </li>
+                  </li> 
+                  </ul>
+                  <li><a class="dropdown-item pointer"> Talismans &raquo; </a>
                     <ul class="submenu dropdown-menu">
-                     <li><a class="dropdown-item" href="jewlery.html#amber">Amber</a></li>
-                     <li><a class="dropdown-item" href="jewlery.html#moonstone">Moonstone</a></li>
-                     <li><a class="dropdown-item" href="jewlery.html#onyx">Onyx</a></li>
-                     <li><a class="dropdown-item" href="jewlery.html#opal">Opal</a></li>
-                     <li><a class="dropdown-item" href="jewlery.html#spinel">Spinel</a></li>
-                     <li><a class="dropdown-item" href="jewlery.html#zircon">Zircon</a></li>
+                      <li><a class="dropdown-item" href="talismanes.html#tAden">Talisman of Aden</a></li>
+                      <li><a class="dropdown-item" href="talismanes.html#tEva">Talisman of Eva</a></li>
+                      <li><a class="dropdown-item" href="talismanes.html#tSpeed">Talisman of Speed</a></li>
+                      <li><a class="dropdown-item" href="talismanes.html#tAuthority">Talisman of Authority</a></li>
+                      <li><a class="dropdown-item" href="talismanes.html#tBaium">Talisman of Baium</a></li>
+                      <li><a class="dropdown-item" href="talismanes.html#tVenir">Venir's Talisman</a></li>
+                      </li>
+                    </li> 
                     </ul>
-  
-                    <li><a class="dropdown-item" href="belts.html"> Belts &raquo; </a>
+
+                  <li><a class="dropdown-item pointer"> Agathions &raquo; </a>
+                    <ul class="submenu dropdown-menu">
+                      <li><a class="dropdown-item" href="agathions.html#ignis">Ignis</a></li>
+                      <li><a class="dropdown-item" href="agathions.html#joy">Joy</a></li>
+                      <li><a class="dropdown-item" href="agathions.html#nebula">Nebula</a></li>
+                      <li><a class="dropdown-item" href="agathions.html#petram">Petram</a></li>
+                      <li><a class="dropdown-item" href="agathions.html#procella">Procella</a></li>
+                      </li>
+                    </li> 
+                    </ul> 
+              
+
+              <li><a class="dropdown-item pointer"> Jewels &raquo; </a>
+                <ul class="submenu dropdown-menu">
+                 <li><a class="dropdown-item" href="jewlery.html#amber">Amber</a></li>
+                 <li><a class="dropdown-item" href="jewlery.html#moonstone">Moonstone</a></li>
+                 <li><a class="dropdown-item" href="jewlery.html#onyx">Onyx</a></li>
+                 <li><a class="dropdown-item" href="jewlery.html#opal">Opal</a></li>
+                 <li><a class="dropdown-item" href="jewlery.html#spinel">Spinel</a></li>
+                 <li><a class="dropdown-item" href="jewlery.html#zircon">Zircon</a></li>
+                </ul>
+
+                <li><a class="dropdown-item pointer"> Belts &raquo; </a>
+                  <ul class="submenu dropdown-menu">
+                   <li><a class="dropdown-item" href="belts.html#dragonBelt">Dragon Belt</a></li>
+                   <li><a class="dropdown-item" href="belts.html#bDragonBelt">Blessed Dragon Belt</a></li>
+
+                  </ul>
+
+                  <li><a class="dropdown-item" href="cloakProtection.html"> Cloak of Protection </a>
+                  <li><a class="dropdown-item" href="einhasadPendant.html"> Einhasad's Pendant </a>
+                  <li><a class="dropdown-item" href="circletHero.html"> Circlet of Hero </a>
+
+                    <li><a class="dropdown-item pointer"> Special Accesories &raquo; </a>
                       <ul class="submenu dropdown-menu">
-                       <li><a class="dropdown-item" href="belts.html#dragonBelt">Dragon Belt</a></li>
-                       <li><a class="dropdown-item" href="belts.html#bDragonBelt">Blessed Dragon Belt</a></li>
+                       <li><a class="dropdown-item" href="saccesories.html#toi-ring">Ring of Insolence</a></li>
+                       <li><a class="dropdown-item" href="saccesories.html#dv-earring">Dragon Valley's Earring</a></li>
   
                       </ul>
-  
-                      <li><a class="dropdown-item" href="cloakProtection.html"> Cloak of Protection </a>
-                      <li><a class="dropdown-item" href="einhasadPendant.html"> Einhasad's Pendant </a>
-                      <li><a class="dropdown-item" href="circletHero.html"> Circlet of Hero </a>
-  
-                        <li><a class="dropdown-item" href="Saccesories.html"> Special Accesories &raquo; </a>
-                          <ul class="submenu dropdown-menu">
-                           <li><a class="dropdown-item" href="saccesories.html#toi-ring">Ring of Insolence</a></li>
-                           <li><a class="dropdown-item" href="saccesories.html#dv-earring">Dragon Valley's Earring</a></li>
-      
-                          </ul>
-  
-                          <li><a class="dropdown-item" href="Eaccesories.html"> Epic Accesories &raquo; </a>
-                            <ul class="submenu dropdown-menu">
-                             <li><a class="dropdown-item" href="Eaccesories.html#QARing">Queen Ant's Ring</a></li>
-                             <li><a class="dropdown-item" href="Eaccesories.html#CoreRing">Ring of Core</a></li>
-                             <li><a class="dropdown-item" href="Eaccesories.html#OrfenEarring">Orfen's Earring</a></li>
-                             <li><a class="dropdown-item" href="Eaccesories.html#ZakenEarring">Zaken Earring</a></li>
-                             <li><a class="dropdown-item" href="Eaccesories.html#BaiumRing">Baium's Ring</a></li>
-                             <li><a class="dropdown-item" href="Eaccesories.html#AntharasEarring">Earring of Antharas</a></li>
-                             <li><a class="dropdown-item" href="Eaccesories.html#FrintezzaNeck">Frintezza's Necklace</a></li>
-  
-                          </ul>
-  
-                          <li><a class="dropdown-item" href="dolls.html"> Dolls &raquo; </a>
-                            <ul class="submenu dropdown-menu">
-                             <li><a class="dropdown-item" href="dolls.html#zakenDoll">Zaken's Doll</a></li>
-                             <li><a class="dropdown-item" href="dolls.html#baiumDoll">Baium's Doll</a></li>
-                             <li><a class="dropdown-item" href="dolls.html#coreDoll">Core's Doll</a></li>
-                             <li><a class="dropdown-item" href="dolls.html#qaDoll">Queen Ant's Doll</a></li>
-                             <li><a class="dropdown-item" href="dolls.html#orfenDoll">Orfen's Doll</a></li>
-                             <li><a class="dropdown-item" href="dolls.html#frintezaDoll">Frintezza's Doll</a></li>
-  
-                          </ul>
-                </ul>
-  
-                <li><a class="dropdown-item pointer"> Other &raquo; </a>
+
+                      <li><a class="dropdown-item pointer"> Epic Accesories &raquo; </a>
+                        <ul class="submenu dropdown-menu">
+                         <li><a class="dropdown-item" href="Eaccesories.html#QARing">Queen Ant's Ring</a></li>
+                         <li><a class="dropdown-item" href="Eaccesories.html#CoreRing">Ring of Core</a></li>
+                         <li><a class="dropdown-item" href="Eaccesories.html#OrfenEarring">Orfen's Earring</a></li>
+                         <li><a class="dropdown-item" href="Eaccesories.html#ZakenEarring">Zaken Earring</a></li>
+                         <li><a class="dropdown-item" href="Eaccesories.html#BaiumRing">Baium's Ring</a></li>
+                         <li><a class="dropdown-item" href="Eaccesories.html#AntharasEarring">Earring of Antharas</a></li>
+                         <li><a class="dropdown-item" href="Eaccesories.html#FrintezzaNeck">Frintezza's Necklace</a></li>
+
+                      </ul>
+
+                      <li><a class="dropdown-item pointer"> Dolls &raquo; </a>
+                        <ul class="submenu dropdown-menu">
+                         <li><a class="dropdown-item" href="dolls.html#zakenDoll">Zaken's Doll</a></li>
+                         <li><a class="dropdown-item" href="dolls.html#baiumDoll">Baium's Doll</a></li>
+                         <li><a class="dropdown-item" href="dolls.html#coreDoll">Core's Doll</a></li>
+                         <li><a class="dropdown-item" href="dolls.html#qaDoll">Queen Ant's Doll</a></li>
+                         <li><a class="dropdown-item" href="dolls.html#orfenDoll">Orfen's Doll</a></li>
+                         <li><a class="dropdown-item" href="dolls.html#frintezaDoll">Frintezza's Doll</a></li>
+
+                      </ul>
+            </ul>
+
+            <li><a class="dropdown-item pointer"> Other &raquo; </a>
+              <ul class="submenu dropdown-menu">
+
+                <li><a class="dropdown-item pointer"> Soul Crystals &raquo; </a>
                   <ul class="submenu dropdown-menu">
-  
-                    <li><a class="dropdown-item" href="soulCrystals.html"> Soul Crystals &raquo; </a>
-                      <ul class="submenu dropdown-menu">
-  
-                        <li><a class="dropdown-item pointer"> Old &raquo; </a>
-                         <ul class="submenu dropdown-menu">
-                            <li><a class="dropdown-item" href="soulCrystals.html#aeore">Aeore</a></li>
-                            <li><a class="dropdown-item" href="soulCrystals.html#feoh">Feoh</a></li>
-                            <li><a class="dropdown-item" href="soulCrystals.html#iss">Iss</a></li>
-                            <li><a class="dropdown-item" href="soulCrystals.html#othell">Othell</a></li>
-                            <li><a class="dropdown-item" href="soulCrystals.html#sigel">Sigel</a></li>
-                            <li><a class="dropdown-item" href="soulCrystals.html#tyrr">Tyrr</a></li>
-                            <li><a class="dropdown-item" href="soulCrystals.html#wynn">Wynn</a></li>
-                            <li><a class="dropdown-item" href="soulCrystals.html#yul">Yul</a></li>
-                            <li><a class="dropdown-item" href="soulCrystals.html#anakim">Anakim</a></li>
-                            <li><a class="dropdown-item" href="soulCrystals.html#lilith">Lilith</a></li>
-                         </ul>
-                        </li>
-                        
-                          <li><a class="dropdown-item pointer"> New &raquo; </a>
-                            <ul class="submenu dropdown-menu">
-                              <li><a class="dropdown-item" href="soulCrystalsNew.html#aden">Aden</a></li>
-                              <li><a class="dropdown-item" href="soulCrystalsNew.html#hardin">Hardin</a></li>
-                            </ul>
-                          </li> 
-  
+
+                    <li><a class="dropdown-item pointer"> Old &raquo; </a>
+                     <ul class="submenu dropdown-menu">
+                        <li><a class="dropdown-item" href="soulCrystals.html#aeore">Aeore</a></li>
+                        <li><a class="dropdown-item" href="soulCrystals.html#feoh">Feoh</a></li>
+                        <li><a class="dropdown-item" href="soulCrystals.html#iss">Iss</a></li>
+                        <li><a class="dropdown-item" href="soulCrystals.html#othell">Othell</a></li>
+                        <li><a class="dropdown-item" href="soulCrystals.html#sigel">Sigel</a></li>
+                        <li><a class="dropdown-item" href="soulCrystals.html#tyrr">Tyrr</a></li>
+                        <li><a class="dropdown-item" href="soulCrystals.html#wynn">Wynn</a></li>
+                        <li><a class="dropdown-item" href="soulCrystals.html#yul">Yul</a></li>
+                        <li><a class="dropdown-item" href="soulCrystals.html#anakim">Anakim</a></li>
+                        <li><a class="dropdown-item" href="soulCrystals.html#lilith">Lilith</a></li>
+                     </ul>
+                    </li>
+                    
+                      <li><a class="dropdown-item pointer"> New &raquo; </a>
+                        <ul class="submenu dropdown-menu">
+                          <li><a class="dropdown-item" href="soulCrystalsNew.html#aden">Aden</a></li>
+                          <li><a class="dropdown-item" href="soulCrystalsNew.html#hardin">Hardin</a></li>
                         </ul>
-                         
-                          <li><a class="dropdown-item" href="lifestones.html"> Life Stones &raquo; </a>
-                            <ul class="submenu dropdown-menu">
-                                  <li><a class="dropdown-item" href="lifestones.html#armor">Armor</a></li>
-                                  <li><a class="dropdown-item" href="lifestones.html#weapon">Weapon</a></li>
-                                  <li><a class="dropdown-item" href="lifestones.html#shieldSigil">Shield/Sigil</a></li>
-                                  <li><a class="dropdown-item" href="lifestones.html#accesory">Accesory</a></li>
-                                  <li><a class="dropdown-item" href="lifestones.html#circlet">Circlet</a></li>
-       
-                               </ul>
-                              </li>
-                            
+                      </li> 
+
                     </ul>
-  
-    
-               </li>
-               </ul>
+                     
+                      <li><a class="dropdown-item pointer"> Life Stones &raquo; </a>
+                        <ul class="submenu dropdown-menu">
+                              <li><a class="dropdown-item" href="lifestones.html#armor">Armor</a></li>
+                              <li><a class="dropdown-item" href="lifestones.html#weapon">Weapon</a></li>
+                              <li><a class="dropdown-item" href="lifestones.html#shieldSigil">Shield/Sigil</a></li>
+                              <li><a class="dropdown-item" href="lifestones.html#accesory">Accesory</a></li>
+                              <li><a class="dropdown-item" href="lifestones.html#circlet">Circlet</a></li>
+   
+                           </ul>
+                          </li>
+                        
+                </ul>
+
+
            </li>
-         </ul>
-       
-         </div> 
-        </div> 
-       </nav>  
+           </ul>
+       </li>
+     </ul>
+   
+     </div> 
+    </div> 
+   </nav>
+  </div>
+  <div class="container justify-content-center bg-white">
+     <div class="col">
+
+   <section id="tallum">
+      <img class ="pt-5 mx-auto d-block render-img" src="http://imgfz.com/i/DS4pvW8.png" alt="title-tallum" border="0"> 
+      <img class ="pt-3 mx-auto d-block render-img" src="http://imgfz.com/i/5WSN0Lv.png" alt="img-tallum-heavy" border="0">
+      <img class ="pt-3 mx-auto d-block render-img" src="http://imgfz.com/i/NSKPqvr.png" alt="img-tallum-light" border="0">
+      <img class ="pt-3 mx-auto d-block render-img" src="http://imgfz.com/i/c2mYHsI.png" alt="img-tallum-robe" border="0">
+   </section>
+
+   <section id="dc">
+         <img class ="pt-5 mx-auto d-block render-img" src="http://imgfz.com/i/FbA8cEk.png" alt="title-dc" border="0"> 
+         <img class ="pt-3 mx-auto d-block render-img" src="http://imgfz.com/i/blD28gw.png" alt="img-dc-heavy" border="0">
+         <img class ="pt-3 mx-auto d-block render-img" src="http://imgfz.com/i/f2GyRJC.png" alt="img-dc-light" border="0">
+         <img class ="pt-3 mx-auto d-block render-img" src="http://imgfz.com/i/adFEY9e.png" alt="img-dc-robe" border="0">
+   </section>
+
+   <section id="nightmare">
+       <img class ="pt-5 mx-auto d-block render-img" src="http://imgfz.com/i/AleS6Nq.png" alt="title-nightmare" border="0"> 
+       <img class ="pt-3 mx-auto d-block render-img" src="http://imgfz.com/i/OFxV9ib.png" alt="img-nightmare-heavy" border="0">
+       <img class ="pt-3 mx-auto d-block render-img" src="http://imgfz.com/i/Sj3y9uE.png" alt="img-nightmare-light" border="0">
+       <img class ="pt-3 mx-auto d-block render-img" src="http://imgfz.com/i/mKh7kCq.png" alt="img-nightmare-robe" border="0">
+   </section>
+   
+   <section id="mj">
+     <img class ="pt-5 mx-auto d-block render-img" src="http://imgfz.com/i/WlCPKvJ.png" alt="title-mj" border="0"> 
+     <img class ="pt-3 mx-auto d-block render-img" src="http://imgfz.com/i/4HKku05.png" alt="img-mj-heavy" border="0">
+     <img class ="pt-3 mx-auto d-block render-img" src="http://imgfz.com/i/nPoe6vs.png" alt="img-mj-light" border="0">
+     <img class ="pt-3 mx-auto d-block render-img" src="http://imgfz.com/i/7laZTYd.png" alt="img-mj-robe" border="0">
+   </section>
+
+   
+ </div>
+ </div>
+
+<!-- Inicio Footer -->
+<footer>
+  <div class="button-row-social text-center pb-5">
+    <br><br>
+    <a href="https://discord.gg/6DAPSMBVP7" target="_blank" class="button discord">
+      <i class="fab fa-discord" aria-hidden="true"></i>
+    </a>
+    <a href="https://www.twitch.tv/kwcptr_" target="_blank" class="button twitch">
+      <i class="fa fa-twitch" aria-hidden="true"></i>
+    </a>
+    <a href="https://www.youtube.com/c/kwcptr" target="_blank" class="button youtube">
+      <i class="fa fa-youtube" aria-hidden="true"></i>
+    </a>
+    </div>
+</footer>
+<!-- Fin footer -->   
         
       </div>
       <!-- scripts bootstrap -->
