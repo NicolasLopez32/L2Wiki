@@ -112,7 +112,7 @@ footer .img-discord:hover {
 body {
   border-radius: 3em;
   background-image: url(http://imgfz.com/i/52oSNDU.png);
-  /* background-position: center;  */
+  background-position: top;
   background-repeat: no-repeat;
   background-color: #282727 !important;
   font-weight: 600 !important;
