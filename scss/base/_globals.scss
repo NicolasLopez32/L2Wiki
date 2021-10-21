@@ -120,13 +120,12 @@
     
   }
   
-  
-  
   // button 
   .button.white {
     color:#2f3c4e;
     background:#fff;
   }
+
   .button.white:hover {
     color: #fff;
     background:black;
@@ -200,7 +199,6 @@
   
   .borderr {
     border-radius:2rem;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: revert;
   }
-  
