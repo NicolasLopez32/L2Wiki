@@ -214,8 +214,8 @@ body {
   }
 
   .dropdown-item:hover {
-    color: white !important;
-    background-color: #000 !important;
+    color: #000 !important;
+    background-color: #fac704 !important;
   }
 
   .nav-item:hover .dropdown-menu {
