@@ -109,7 +109,7 @@
     /* background-position: center;  */
     background-repeat: no-repeat;
     background-color:rgb(40, 39, 39)!important;
-    font-family:'calibri-bold'!important;
+    // font-family:'calibri-bold'!important;
     font-weight: 600!important;
   
   }
@@ -200,21 +200,7 @@
   
   .borderr {
     border-radius:2rem;
-    border-bottom: 2px solid black;
+    border-bottom: 1px solid black;
     border-radius: revert;
   }
   
- .lv1 {
-   left:100%;
-   top:0px;
- }
-
- .lv2 {
-  top: 2em!important;
-  left: 100%!important;
- }
-
- .lv3 {
-  top: 4em!important;
-  left: 100%!important;
- }
