@@ -199,6 +199,10 @@ body {
   border-radius: revert;
 }
 
+.navbar {
+  padding-bottom: 0px !important;
+}
+
 .dropdown-menu {
   padding: 0px !important;
 }
@@ -226,7 +230,7 @@ body {
     display: block;
   }
 
-  .submenu .dropdown-menu li {
+  .submenu .dropdown-menu ul {
     display: block;
   }
 
