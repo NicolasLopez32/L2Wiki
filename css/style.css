@@ -193,18 +193,22 @@ body {
   text-shadow: rgba(161, 149, 149, 0.7);
 }
 
-.borderr {
-  border-radius: 2rem;
-  border-bottom: 1px solid rgba(161, 149, 149, 0.7);
-  border-radius: revert;
-}
-
 .navbar {
   padding-bottom: 0px !important;
 }
 
 .dropdown-menu {
   padding: 0px !important;
+}
+
+.f1 {
+  border-radius: 2rem;
+  border-top: 1px solid rgba(161, 149, 149, 0.7);
+  border-radius: revert;
+}
+
+.sticky-top {
+  background-color: white;
 }
 
 /* ============ desktop view ============ */
