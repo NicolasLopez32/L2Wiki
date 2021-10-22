@@ -282,6 +282,10 @@ body {
     margin-bottom: 0.5rem;
   }
 
+  .dropdown-menu {
+    background-color: gray;
+  }
+
   .render-img {
     width: 100%;
   }
@@ -292,6 +296,12 @@ body {
 
   .toggler {
     margin-bottom: 0.5em;
+  }
+
+  .scrollMenu {
+    max-height: 400px;
+    overflow-x: hidden;
+    overflow-y: auto;
   }
 
   body a:hover {
