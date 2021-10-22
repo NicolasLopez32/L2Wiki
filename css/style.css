@@ -199,6 +199,10 @@ body {
   border-radius: revert;
 }
 
+.dropdown-menu {
+  padding: 0px !important;
+}
+
 /* ============ desktop view ============ */
 @media all and (min-width: 992px) {
   body a:hover {
