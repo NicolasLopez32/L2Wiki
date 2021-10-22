@@ -282,10 +282,6 @@ body {
     margin-bottom: 0.5rem;
   }
 
-  .dropdown-menu {
-    background-color: gray;
-  }
-
   .render-img {
     width: 100%;
   }
@@ -302,6 +298,7 @@ body {
     max-height: 400px;
     overflow-x: hidden;
     overflow-y: auto;
+    background-color: gainsboro;
   }
 
   body a:hover {
