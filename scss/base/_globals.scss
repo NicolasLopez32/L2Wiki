@@ -222,3 +222,89 @@
   .sticky-top {
     background-color:white;
   }
+
+  h2{
+    color:#000;
+    text-align:center;
+    font-size:2em;
+  }
+  .warpper{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .tab{
+    cursor: pointer;
+    padding:10px 20px;
+    margin:0px 2px;
+    background:#000;
+    display:inline-block;
+    color:#fff;
+    border-radius:3px 3px 0px 0px;
+    box-shadow: 0 0.5rem 0.8rem #00000080;
+  }
+  .panels{
+    background:#fffffff6;
+    box-shadow: 0 0rem 1rem #00000080;
+    min-height:200px;
+    width:100%;
+    // max-width:500px;
+    border-radius:3px;
+    overflow:hidden;
+    padding:20px;  
+  }
+  .panel{
+    display:none;
+    animation: fadein 1s;
+  }
+  @keyframes fadein {
+      from {
+          opacity:0;
+      }
+      to {
+          opacity:1;
+      }
+  }
+  .panel-title{
+    font-size:1.5em;
+    font-weight:bold;
+    display:flex;
+    justify-content: center;
+  }
+  .panel-flex {
+    font-size:3em;
+    font-weight:bold;
+    display:flex;
+    justify-content: space-around;
+    margin-top:1em
+  }
+  .radio{
+    display:none;
+  }
+
+  #one:checked ~ .panels #one-panel,
+  #two:checked ~ .panels #two-panel,
+  #three:checked ~ .panels #three-panel,
+  #four:checked ~ .panels #four-panel,
+  #five:checked ~ .panels #five-panel,
+  #six:checked ~ .panels #six-panel{
+    display:block;
+    
+    
+  }
+  #one:checked ~ .tabs #one-tab,
+  #two:checked ~ .tabs #two-tab,
+  #three:checked ~ .tabs #three-tab
+  #four:checked ~ .tabs #four-tab
+  #five:checked ~ .tabs #five-tab
+  #six:checked ~ .tabs #six-tab{
+    background:#fffffff6;
+    color:#000;
+    border-top: 3px solid #000;
+  }
+
+  .item1w {
+    // display:flex;
+    // justify-content: center;
+    padding-top:4em;
+  }
