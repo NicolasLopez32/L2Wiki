@@ -281,6 +281,10 @@ h2 {
   border-top: 1px solid black;
 }
 
+.btn {
+  font-weight: 400 !important;
+}
+
 .radio {
   display: none;
 }
@@ -307,10 +311,12 @@ h2 {
 
 .item1w {
   padding-top: 4em;
+  font-weight: 300;
 }
 
 .classguide-title {
   font-size: 18px;
+  font-weight: 600;
 }
 
 .imgIco {

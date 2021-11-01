@@ -286,6 +286,10 @@
   .panelborder {
     border-top: 1px solid black;
   }
+
+  .btn {
+    font-weight: 400!important;
+  }
   .radio{
     display:none;
   }
@@ -312,14 +316,14 @@
   }
 
   .item1w {
-    // display:flex;
-    // justify-content: center;
     padding-top:4em;
+    font-weight: 300;
   }
 // css de class guides
 
 .classguide-title {
   font-size: 18px;
+  font-weight: 600;
 }
 
 .imgIco {
