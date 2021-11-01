@@ -298,9 +298,9 @@
   }
   #one:checked ~ .tabs #one-tab,
   #two:checked ~ .tabs #two-tab,
-  #three:checked ~ .tabs #three-tab
-  #four:checked ~ .tabs #four-tab
-  #five:checked ~ .tabs #five-tab
+  #three:checked ~ .tabs #three-tab,
+  #four:checked ~ .tabs #four-tab,
+  #five:checked ~ .tabs #five-tab,
   #six:checked ~ .tabs #six-tab{
     background:#fffffff6;
     color:#000;
