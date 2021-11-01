@@ -252,6 +252,7 @@
     border-radius:3px;
     overflow:hidden;
     padding:20px;  
+    margin-bottom:10px;
   }
   .panel{
     display:none;
@@ -280,7 +281,7 @@
   }
 
   .panelborder {
-    border-bottom: 1px solid black;
+    border-top: 1px solid black;
   }
   .radio{
     display:none;
@@ -322,3 +323,9 @@
   width: 50px;
   height: 50px;
 }
+
+.renderize {
+  display:inline-block;
+  justify-content:start;
+}
+
