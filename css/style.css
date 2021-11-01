@@ -274,7 +274,7 @@ h2 {
   font-weight: bold;
   display: flex;
   justify-content: space-around;
-  margin-top: 1em;
+  margin-top: 0.5em;
 }
 
 .panelborder {
@@ -311,7 +311,7 @@ h2 {
 
 .item1w {
   padding-top: 4em;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .classguide-title {
