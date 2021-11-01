@@ -276,7 +276,11 @@
     font-weight:bold;
     display:flex;
     justify-content: space-around;
-    margin-top:1em
+    margin-top:1em;
+  }
+
+  .panelborder {
+    border-bottom: 1px solid black;
   }
   .radio{
     display:none;
@@ -308,3 +312,13 @@
     // justify-content: center;
     padding-top:4em;
   }
+// css de class guides
+
+.classguide-title {
+  font-size: 18px;
+}
+
+.imgIco {
+  width: 50px;
+  height: 50px;
+}
