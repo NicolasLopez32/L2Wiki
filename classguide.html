@@ -239,7 +239,7 @@
       <input class="radio" id="one" name="group" type="radio" checked>
       <input class="radio" id="two" name="group" type="radio">
       <input class="radio" id="three" name="group" type="radio">
-      <input class="radio" id="four" name="group" type="radio" checked>
+      <input class="radio" id="four" name="group" type="radio">
       <input class="radio" id="five" name="group" type="radio">
       <input class="radio" id="six" name="group" type="radio">
 
@@ -255,34 +255,42 @@
       <div class="panels">
       <div class="panel container-fluid" id="one-panel">
         <div class="panel-title">Human Fighter</div>
-          <div class="container-fluid panel-flex" id="myGroup">
-
-            <button class="btn" type="button" data-bs-toggle="collapse"  data-bs-target="#collapseWarlord" aria-expanded="false" aria-controls="collapseWarlord" data-parent="#myGroup">
+        <div id="line1"></div>
+        <div id="line2"></div>
+        <div id="line3"></div>
+        <div id="line4"></div>
+        <div id="line5"></div>
+        <div id="line6"></div>
+        <div id="line7"></div>
+        <div id="line8"></div>
+          <div class="container-fluid panel-flex items" id="myGroup">
+            
+            <button class="btn" type="button" data-bs-toggle="collapse" href="#display_data" data-bs-target="#collapseWarlord" aria-expanded="false" aria-controls="collapseWarlord" data-parent="#myGroup">
               Warlord <br>
               Dreadnought
             </button>
 
-            <button class="btn" type="button" data-bs-toggle="collapse"  data-bs-target="#collapseGladiator" aria-expanded="false" aria-controls="collapseGladiator" data-parent="#myGroup" style="padding-left:1.4em">
+            <button class="btn glad" type="button" data-bs-toggle="collapse"  data-bs-target="#collapseGladiator" aria-expanded="false" aria-controls="collapseGladiator" data-parent="#myGroup">
               Gladiator<br>
               Duelist
             </button>
 
-            <button class="btn" type="button" data-bs-toggle="collapse"  data-bs-target="#collapsePaladin" aria-expanded="false" aria-controls="collapsePaladin" data-parent="#myGroup">
+            <button class="btn pal" type="button" data-bs-toggle="collapse"  data-bs-target="#collapsePaladin" aria-expanded="false" aria-controls="collapsePaladin" data-parent="#myGroup">
               Paladin<br>
               Phoenix Knight
             </button>
 
-            <button class="btn" type="button" data-bs-toggle="collapse"  data-bs-target="#collapseDarkAvenger" aria-expanded="false" aria-controls="collapsePaladin" data-parent="#myGroup">
+            <button class="btn da" type="button" data-bs-toggle="collapse"  data-bs-target="#collapseDarkAvenger" aria-expanded="false" aria-controls="collapsePaladin" data-parent="#myGroup">
               Dark Avenger<br>
               Hell Knight
             </button>
 
-            <button class="btn" type="button" data-bs-toggle="collapse"  data-bs-target="#collapseTreasureHunter" aria-expanded="false" aria-controls="collapsePaladin" data-parent="#myGroup">
+            <button class="btn th" type="button" data-bs-toggle="collapse"  data-bs-target="#collapseTreasureHunter" aria-expanded="false" aria-controls="collapsePaladin" data-parent="#myGroup">
               Treasure Hunter<br>
               Adventurer
             </button>
 
-            <button class="btn" type="button" data-bs-toggle="collapse"  data-bs-target="#collapseHawkeye" aria-expanded="false" aria-controls="collapsePaladin" data-parent="#myGroup">
+            <button class="btn haw" type="button" data-bs-toggle="collapse"  data-bs-target="#collapseHawkeye" aria-expanded="false" aria-controls="collapsePaladin" data-parent="#myGroup">
               Hawkeye<br>
               Sagittarius
             </button>
@@ -291,25 +299,32 @@
                 <!-- secciones/menu -->
 
             <div class="panel-title pt-2">Human Mystic</div>
+            <div id="line9"></div>
+            <div id="line10"></div>
+            <div id="line11"></div>
+            <div id="line12"></div>
+            <div id="line13"></div>
+            <div id="line14"></div>
+            <div id="line15"></div>
 
-            <div class="container-fluid panel-flex" id="myGroup">
+            <div class="container-fluid panel-flex align-items-center me-4 ps-2" id="myGroup">
 
-            <button class="btn" type="button" data-bs-toggle="collapse"  data-bs-target="#collapseSorcerer" aria-expanded="false" aria-controls="collapseSorcerer" data-parent="#myGroup">
+            <button class="btn sorc" type="button" data-bs-toggle="collapse"  data-bs-target="#collapseSorcerer" aria-expanded="false" aria-controls="collapseSorcerer" data-parent="#myGroup">
              Sorcerer<br>
              Archmage
             </button>
 
-            <button class="btn" type="button" data-bs-toggle="collapse"  data-bs-target="#collapseNecromancer" aria-expanded="false" aria-controls="collapseNecromancer" data-parent="#myGroup">
+            <button class="btn nec" type="button" data-bs-toggle="collapse"  data-bs-target="#collapseNecromancer" aria-expanded="false" aria-controls="collapseNecromancer" data-parent="#myGroup">
             Necromancer<br>
             Soultaker
             </button>
 
-            <button class="btn" type="button" data-bs-toggle="collapse"  data-bs-target="#collapseWarlock" aria-expanded="false" aria-controls="collapseWarlock" data-parent="#myGroup">
+            <button class="btn wlk" type="button" data-bs-toggle="collapse"  data-bs-target="#collapseWarlock" aria-expanded="false" aria-controls="collapseWarlock" data-parent="#myGroup">
              Warlock<br>
              Arcana Lord
             </button>
 
-            <button class="btn" type="button" data-bs-toggle="collapse"  data-bs-target="#collapseBishop" aria-expanded="false" aria-controls="collapseBishop" data-parent="#myGroup">
+            <button class="btn bp" type="button" data-bs-toggle="collapse"  data-bs-target="#collapseBishop" aria-expanded="false" aria-controls="collapseBishop" data-parent="#myGroup">
             Bishop<br>
             Cardinal
            </button>
@@ -322,10 +337,10 @@
           </div>
 
           <div class="panel-title pt-2">Death Pilgrim</div>
-
-            <div class="container-fluid panel-flex" id="myGroup">
-
-            <button class="btn" type="button" data-bs-toggle="collapse"  data-bs-target="#collapseDK" aria-expanded="false" aria-controls="collapseDK" data-parent="#myGroup">
+          <div id="line16"></div>
+            <div class="container-fluid d-flex justify-content-center pb-4" id="myGroup">
+            
+            <button class="btn dk" type="button" data-bs-toggle="collapse"  data-bs-target="#collapseDK" aria-expanded="false" aria-controls="collapseDK" data-parent="#myGroup">
              Death Messenger<br>
              Death Knight
             </button>

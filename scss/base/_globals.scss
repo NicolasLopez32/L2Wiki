@@ -201,12 +201,6 @@
     text-shadow: rgba(161, 149, 149, 0.7);
 
   }
-  
-  // .borderr {
-  //   border-radius:2rem;
-  //   border-bottom: 1px solid rgba(161, 149, 149, 0.7);
-  //   border-radius: revert;
-  // }
 
   .navbar {
     padding-bottom: 0px!important;
@@ -240,17 +234,54 @@
     cursor: pointer;
     padding:10px 20px;
     margin:0px 2px;
-    background:#000;
+    background:#fff;
     display:inline-block;
-    color:#fff;
+    color:#000;
     border-radius:3px 3px 0px 0px;
     box-shadow: 0 0.5rem 0.8rem #00000080;
   }
+
+  .dk {
+    margin-left:2em!important;
+    
+  }
+
+  .glad {
+    margin-left:1.4em!important;
+  }
+
+  .pal {
+    margin-left:0.50em!important;
+  }
+  .sorc{
+    margin-left:2.5em;
+  }
+  
+  .th {
+    margin-right:2em!important;
+  }
+
+  .da {
+    margin-left:1em!important;
+  }
+  
+  .haw {
+    margin-right:1em!important;
+  }
+  
+  .wlk {
+    margin-right:2em!important;
+  }
+
+  .bp {
+    margin-right:3em!important;
+  }
+
   .panels{
     background:#fffffff6;
     box-shadow: 0 0rem 1rem #00000080;
     min-height:200px;
-    width:100%;
+    width:80%;
     // max-width:500px;
     border-radius:3px;
     overflow:hidden;
@@ -289,6 +320,11 @@
 
   .btn {
     font-weight: 400!important;
+    margin-right:1.5rem;
+    // border:1px solid black!important;
+  }
+  .btn:hover {
+    background-color:#fac704;
   }
   .radio{
     display:none;
@@ -310,9 +346,14 @@
   #four:checked ~ .tabs #four-tab,
   #five:checked ~ .tabs #five-tab,
   #six:checked ~ .tabs #six-tab{
-    background:#fffffff6;
+    background:#fac704;
     color:#000;
-    border-top: 3px solid #000;
+     border-top: 3px solid #000;
+  }
+
+  .tab:hover {
+    color:#fac704;
+    border-top:3px solid #fac704;
   }
 
   .item1w {
@@ -336,3 +377,178 @@
   justify-content:start;
 }
 
+#line1 {
+  font-size:0;
+  width:1px;
+  height:20px;
+  color:#fff;
+  background-color:#000;
+  margin:auto;
+  
+} 
+
+#line2 {
+  font-size:0;
+  width:83%;
+  height:1px;
+  color:#fff;
+  background-color:#000;    
+  margin:auto;
+} 
+
+#line3 {
+  font-size:0;
+  display:inline;
+  width:1px;
+  height:25px;
+  color:#fff;
+  background-color:#000;
+  margin-left:6.3rem;
+  float:left;
+  position:absolute;
+}  
+#line4 {
+  font-size:0;
+  display:inline;
+  width:1px;
+  height:25px;
+  color:#fff;
+  background-color:#000;
+  margin-left:18.6rem;
+  float:left;
+  position:absolute;
+}  
+#line5 {
+  font-size:0;
+  display:inline;
+  width:1px;
+  height:25px;
+  color:#fff;
+  background-color:#000;
+  margin-left:30.4rem;
+  float:left;
+  position:absolute;
+}  
+
+#line6 {
+  font-size:0;
+  display:inline;
+  width:1px;
+  height:25px;
+  color:#fff;
+  background-color:#000;
+  margin-left:43.5rem;
+  float:left;
+  position:absolute;
+}  
+
+#line7 {
+  font-size:0;
+  display:inline;
+  width:1px;
+  height:25px;
+  color:#fff;
+  background-color:#000;
+  margin-left:56rem;
+  float:left;
+  position:absolute;
+}  
+
+#line8 {
+  font-size:0;
+  display:inline;
+  width:1px;
+  height:25px;
+  color:#fff;
+  background-color:#000;
+  margin-left:68.4rem;
+  float:left;
+  position:absolute;
+}  
+
+#line9 {
+  font-size: 0;
+  width: 1px;
+  height: 20px;
+  color: #fff;
+  background-color: #000;
+  margin: auto;
+}  
+
+#line10 {
+  font-size:0;
+  width:76.5%;
+  height:1px;
+  color:#fff;
+  background-color:#000;    
+  margin:auto;
+}  
+
+#line11 {
+  font-size:0;
+  display:inline;
+  width:1px;
+  height:25px;
+  color:#fff;
+  background-color:#000;
+  margin-left:8.8rem;
+  float:left;
+  position:absolute;
+}  
+
+#line12 {
+  font-size:0;
+  display:inline;
+  width:1px;
+  height:25px;
+  color:#fff;
+  background-color:#000;
+  margin-left:22.8rem;
+  float:left;
+  position:absolute;
+}  
+
+#line13 {
+  font-size:0;
+  display:inline;
+  width:1px;
+  height:25px;
+  color:#fff;
+  background-color:#000;
+  margin-left:37.35rem;
+  float:left;
+  position:absolute;
+}  
+
+#line14 {
+  font-size:0;
+  display:inline;
+  width:1px;
+  height:25px;
+  color:#fff;
+  background-color:#000;
+  margin-left:51.7rem;
+  float:left;
+  position:absolute;
+}  
+
+#line15 {
+  font-size:0;
+  display:inline;
+  width:1px;
+  height:25px;
+  color:#fff;
+  background-color:#000;
+  margin-left:66rem;
+  float:left;
+  position:absolute;
+}  
+
+#line16 {
+  font-size: 0;
+  width: 1px;
+  height: 30px;
+  color: #fff;
+  background-color: #000;
+  margin: auto;
+}  
