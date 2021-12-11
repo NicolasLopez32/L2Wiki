@@ -64,9 +64,9 @@
     margin-left:24%;
   }
 
-  .nav-link {
-    padding:1rem 1rem!important;
-  }
+  // .nav-link {
+  //   padding:1rem 1rem!important;
+  // }
   /* Inicio Footer */
   
   footer .footer-container {
@@ -206,18 +206,21 @@
   }
 
   .navbar {
-    padding-bottom: 0.5rem!important;
+    padding:0em!important;
+    border-bottom:1px solid rgba(161,149,149,0.7);
+    border-radius:revert;
+   
   }
 
   .dropdown-menu{
     padding:0px!important;
   }
 
-  .f1 {
-    border-radius:2rem;
-    border-top: 1px solid rgba(161, 149, 149, 0.7);
-    border-radius: revert;
-  }
+  // .f1 {
+  //   border-radius:2rem;
+  //   border-top: 1px solid rgba(161, 149, 149, 0.7);
+  //   border-radius: revert;
+  // }
 
   .sticky-top {
     background-color:white;
