@@ -561,6 +561,10 @@ html {
     color: #fac704;
   }
 
+  body {
+    padding-top: 2em;
+  }
+
   .tab {
     margin: 2px 2px;
   }
