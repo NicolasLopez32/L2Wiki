@@ -108,10 +108,13 @@
   
   body {
     border-radius:3em;
-    background-image:url(http://imgfz.com/i/52oSNDU.png);
+    // background-image:url(http://imgfz.com/i/52oSNDU.png);
+    background-image:url(http://imgfz.com/i/Tt5sr9U.png);
     background-position:top;
     background-repeat: no-repeat;
-    background-color:rgb(40, 39, 39)!important;
+    background-size:contain;
+    // background-color:rgb(40, 39, 39)!important;
+    background-color:#202020!important;
     // font-family:'calibri-bold'!important;
     font-weight: 600!important;
   
@@ -203,7 +206,7 @@
   }
 
   .navbar {
-    padding-bottom: 0px!important;
+    padding-bottom: 0.5rem!important;
   }
 
   .dropdown-menu{
@@ -241,42 +244,10 @@
     box-shadow: 0 0.5rem 0.8rem #00000080;
   }
 
-  .dk {
-    margin-left:2em!important;
-    
-  }
-
-  .glad {
-    margin-left:1.4em!important;
-  }
-
-  .pal {
-    margin-left:0.50em!important;
-  }
-  .sorc{
-    margin-left:2.5em;
-  }
-  
-  .th {
-    margin-right:2em!important;
-  }
-
-  .da {
-    margin-left:1em!important;
-  }
-  
-  .haw {
-    margin-right:1em!important;
-  }
-  
-  .wlk {
-    margin-right:2em!important;
-  }
-
-  .bp {
-    margin-right:3em!important;
-  }
-
+  html {
+    scroll-behavior: smooth;
+   }
+   
   .panels{
     background:#fffffff6;
     box-shadow: 0 0rem 1rem #00000080;
@@ -335,7 +306,8 @@
   #three:checked ~ .panels #three-panel,
   #four:checked ~ .panels #four-panel,
   #five:checked ~ .panels #five-panel,
-  #six:checked ~ .panels #six-panel{
+  #six:checked ~ .panels #six-panel,
+  #seven:checked ~ .panels #seven-panel{
     display:block;
     
     
@@ -345,7 +317,8 @@
   #three:checked ~ .tabs #three-tab,
   #four:checked ~ .tabs #four-tab,
   #five:checked ~ .tabs #five-tab,
-  #six:checked ~ .tabs #six-tab{
+  #six:checked ~ .tabs #six-tab,
+  #seven:checked ~ .tabs #seven-tab{
     background:#fac704;
     color:#000;
      border-top: 3px solid #000;
@@ -377,178 +350,4 @@
   justify-content:start;
 }
 
-#line1 {
-  font-size:0;
-  width:1px;
-  height:20px;
-  color:#fff;
-  background-color:#000;
-  margin:auto;
-  
-} 
 
-#line2 {
-  font-size:0;
-  width:83%;
-  height:1px;
-  color:#fff;
-  background-color:#000;    
-  margin:auto;
-} 
-
-#line3 {
-  font-size:0;
-  display:inline;
-  width:1px;
-  height:25px;
-  color:#fff;
-  background-color:#000;
-  margin-left:6.3rem;
-  float:left;
-  position:absolute;
-}  
-#line4 {
-  font-size:0;
-  display:inline;
-  width:1px;
-  height:25px;
-  color:#fff;
-  background-color:#000;
-  margin-left:18.6rem;
-  float:left;
-  position:absolute;
-}  
-#line5 {
-  font-size:0;
-  display:inline;
-  width:1px;
-  height:25px;
-  color:#fff;
-  background-color:#000;
-  margin-left:30.4rem;
-  float:left;
-  position:absolute;
-}  
-
-#line6 {
-  font-size:0;
-  display:inline;
-  width:1px;
-  height:25px;
-  color:#fff;
-  background-color:#000;
-  margin-left:43.5rem;
-  float:left;
-  position:absolute;
-}  
-
-#line7 {
-  font-size:0;
-  display:inline;
-  width:1px;
-  height:25px;
-  color:#fff;
-  background-color:#000;
-  margin-left:56rem;
-  float:left;
-  position:absolute;
-}  
-
-#line8 {
-  font-size:0;
-  display:inline;
-  width:1px;
-  height:25px;
-  color:#fff;
-  background-color:#000;
-  margin-left:68.4rem;
-  float:left;
-  position:absolute;
-}  
-
-#line9 {
-  font-size: 0;
-  width: 1px;
-  height: 20px;
-  color: #fff;
-  background-color: #000;
-  margin: auto;
-}  
-
-#line10 {
-  font-size:0;
-  width:76.5%;
-  height:1px;
-  color:#fff;
-  background-color:#000;    
-  margin:auto;
-}  
-
-#line11 {
-  font-size:0;
-  display:inline;
-  width:1px;
-  height:25px;
-  color:#fff;
-  background-color:#000;
-  margin-left:8.8rem;
-  float:left;
-  position:absolute;
-}  
-
-#line12 {
-  font-size:0;
-  display:inline;
-  width:1px;
-  height:25px;
-  color:#fff;
-  background-color:#000;
-  margin-left:22.8rem;
-  float:left;
-  position:absolute;
-}  
-
-#line13 {
-  font-size:0;
-  display:inline;
-  width:1px;
-  height:25px;
-  color:#fff;
-  background-color:#000;
-  margin-left:37.35rem;
-  float:left;
-  position:absolute;
-}  
-
-#line14 {
-  font-size:0;
-  display:inline;
-  width:1px;
-  height:25px;
-  color:#fff;
-  background-color:#000;
-  margin-left:51.7rem;
-  float:left;
-  position:absolute;
-}  
-
-#line15 {
-  font-size:0;
-  display:inline;
-  width:1px;
-  height:25px;
-  color:#fff;
-  background-color:#000;
-  margin-left:66rem;
-  float:left;
-  position:absolute;
-}  
-
-#line16 {
-  font-size: 0;
-  width: 1px;
-  height: 30px;
-  color: #fff;
-  background-color: #000;
-  margin: auto;
-}  
