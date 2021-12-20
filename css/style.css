@@ -338,6 +338,10 @@ html {
   justify-content: start;
 }
 
+.browser {
+  padding-left: 4.7rem !important;
+}
+
 /* ============ desktop view ============ */
 @media all and (min-width: 992px) {
   body a:hover {
@@ -513,6 +517,10 @@ html {
 #line43, #line50, #line51, #line52, #line53, #line54 {
     display: none;
     visibility: hidden;
+  }
+
+  .render-img {
+    width: 100%;
   }
 }
 @media (max-width: 991px) {

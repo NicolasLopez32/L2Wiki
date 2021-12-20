@@ -49,7 +49,17 @@
               <li><a class="dropdown-item pointer"> Armors </a>
                 <ul class="submenu dropdown-menu">
  
- 
+                 <!-- Armaduras C-Grade -->
+                 <li><a class="dropdown-item pointer"> C-Grade </a>
+                  <ul class="submenu dropdown-menu">
+                    <li><a class="dropdown-item" href="armorsC.html#fp">Full Plate</a></li>
+                    <li><a class="dropdown-item" href="armorsC.html#pl">Plated Leather</a></li>
+                    <li><a class="dropdown-item" href="armorsC.html#drake">Drake</a></li>
+                    <li><a class="dropdown-item" href="armorsC.html#karmian">Karmian</a></li>
+                    </li>
+                  </li>
+                  </ul>  
+                    
                  <!-- Armaduras B-Grade -->
                  <li><a class="dropdown-item pointer"> B-Grade </a>
                  <ul class="submenu dropdown-menu">
@@ -114,6 +124,7 @@
                        <li><a class="dropdown-item" href="talismanes.html#tAuthority">Talisman of Authority</a></li>
                        <li><a class="dropdown-item" href="talismanes.html#tBaium">Talisman of Baium</a></li>
                        <li><a class="dropdown-item" href="talismanes.html#tVenir">Venir's Talisman</a></li>
+                       <li><a class="dropdown-item" href="talismanes.html#tHellbound">Talisman of Hellbound</a></li>
                        </li>
                      </li> 
                      </ul>
@@ -156,6 +167,7 @@
                        <ul class="submenu dropdown-menu">
                         <li><a class="dropdown-item" href="saccesories.html#toi-ring">Ring of Insolence</a></li>
                         <li><a class="dropdown-item" href="saccesories.html#dv-earring">Dragon Valley's Earring</a></li>
+                        <li><a class="dropdown-item" href="saccesories.html#hb-ring">Hellbound Ring</a></li>
    
                        </ul>
  
@@ -242,21 +254,31 @@
      </div> 
     </nav>
     
-    <div class="container-fluid panel-flex">
+    <div class="container-fluid panel-flex browser">
      
-      <script src= "https://player.twitch.tv/js/embed/v1.js"></script>
-      <div id="SamplePlayerDivID"></div>
+     
+      <div class="container-fluid embed-responsive pb-5 browser" id="SamplePlayerDivID">
+      <!-- <script src= "https://player.twitch.tv/js/embed/v1.js"></script>
       <script type="text/javascript">
         var options = {
-          width: 1290,
-          height: 640,
+          width: 500,
+          height: 200,
           channel: "kwcptr",
-          // Only needed if this page is going to be embedded on other websites
           parent: ["embed.example.com", "othersite.example.com"]
         };
+
+
         var player = new Twitch.Player("SamplePlayerDivID", options);
         player.setVolume(0.5);
-      </script>
+      </script> -->
+
+      <iframe class="embed-reponsive-item"
+      src="https://player.twitch.tv/?channel=kwcptr&parent=kwcptr.com&muted=true"
+      height="720"
+      width="1280"
+      allowfullscreen="true">
+      </iframe>
+      </div>
     
       
     </div>
